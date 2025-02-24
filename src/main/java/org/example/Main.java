@@ -14,4 +14,11 @@ public class Main {
         return a + b;
     }
 
+    public static int divideNumbers(int a, int b) {
+        if (b == 0) {
+            return 0;
+        }
+        return a / b;
+    }
+
 }
